@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+.recomended {
+  flex: 0.85;
+  padding: 25px;
+  background-color: #f9f9f9;
+}
+.recomended > .recomended__vedios {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recomended__h1 {
+  font-family: "Ubuntu", sans-serif !important;
+}

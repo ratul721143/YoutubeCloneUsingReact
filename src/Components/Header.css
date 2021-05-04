@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap");
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0px;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 100;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.header__left > .youtube__logo {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.header__left .youtube__icon {
+  font-size: 35px;
+  color: red;
+}
+
+.youtube__logo > .youtube__text {
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 2px;
+}
+
+.header__middle {
+  display: flex;
+  flex: 0.6;
+}
+
+.search__box {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  border: 1px solid #d8d7d7;
+}
+
+.search__box > .search__icon {
+  border: 1px solid rgb(231, 229, 229);
+  background-color: #f9f9f9;
+  color: #adacac;
+  width: 15%;
+  margin-right: 0px;
+}
+
+.search__inputBox {
+  width: 85%;
+  border: none;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.header__middle > .mic {
+  margin-left: 10px;
+}
+
+.header__right {
+  display: flex;
+  flex: 0.2;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icon {
+  cursor: pointer;
+}

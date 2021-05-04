@@ -1,0 +1,24 @@
+.sidebar__item {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  padding: 10px 15px;
+}
+
+.sidebar__item:hover {
+  background-color: #e4dfdf;
+  cursor: pointer;
+}
+
+.sidebar__item > .sidebar__item__menu {
+  font-weight: 400;
+  margin-left: 15px;
+}
+
+.sidebar__item:hover > .sidebar__item__menu {
+  font-weight: bold;
+}
+
+.sidebar__item:hover > .sidebar__icon {
+  color: red;
+}

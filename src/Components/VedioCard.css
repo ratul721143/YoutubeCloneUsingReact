@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Yanone+Kaffeesatz:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
+
+.vedioImage {
+  height: 170px;
+  width: 290px;
+}
+
+.vedioCard {
+  margin: 15px 8px;
+  font-family: "Reggae One", cursive;
+}
+
+.vedioCrad__lower {
+  display: flex;
+  width: 290px;
+  padding-top: 10px;
+}
+
+.vedioCrad__lower > .vedio__details {
+  padding-left: 20px;
+}
+
+.vedioCrad__lower > .vedio__details > h2 {
+  font-size: 14px;
+  font-weight: 640;
+  margin-bottom: 8px;
+}
+
+.vedioCrad__lower > .vedio__details > p {
+  font-size: 13px;
+  color: #706f6f;
+  font-weight: 500;
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 0.5px;
+}
